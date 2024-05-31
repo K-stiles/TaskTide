@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TaskTide 🌊
 
-## Getting Started
+TaskTide is a sleek and efficient task management application built with modern web technologies including TypeScript, Next.js, Tailwind CSS, and Zustand with persistent middleware. Designed to help you seamlessly manage your daily tasks, TaskTide offers a visually appealing and intuitive interface that makes task tracking a breeze.
 
-First, run the development server:
+## Key Features ✨
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern Tech Stack**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - **TypeScript**: Provides type safety for robust and maintainable code.
+  - **Next.js**: Offers server-side rendering and static site generation for fast and SEO-friendly applications.
+  - **Tailwind CSS**: Facilitates rapid and responsive UI development with utility-first CSS.
+  - **Zustand**: Simplifies state management with a small and fast global state management solution, complete with persistent storage.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Task Lifecycle Management**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - Easily create tasks and track their progress through various stages: Todo, In Progress, and Done.
+  - Tasks can transition between stages based on their progress, providing a clear visual workflow.
 
-## Learn More
+- **Persistent State**:
 
-To learn more about Next.js, take a look at the following resources:
+  - Task data is reliably saved and persisted, ensuring that your progress is never lost, even after refreshing or closing the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **User-Friendly Interface**:
+  - Tailwind CSS ensures a clean and responsive design, making TaskTide accessible and easy to use on any device.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Getting Started 🚀
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Make sure you have the following installed on your local machine:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Node.js
+- pnpm
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/K-stiles/TaskTide.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd tasktide
+   ```
+3. Install the dependencies:
+   ```sh
+   pnpm install
+   ```
+
+### Running the Application
+
+1. Start the development server:
+
+   ```sh
+   pnpm run dev
+   ```
+
+2. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+### Building for Production
+
+1. Build the application:
+
+   ```sh
+   pnpm run build
+   ```
+
+2. Start the production server:
+   ```sh
+   pnpm start
+   ```
+
+## Contributing 🤝
+
+We welcome contributions to TaskTide! Please open an issue or submit a pull request with your changes.
+
+## License
+
+This project will be licensed under the MIT License soon.
+
+## Acknowledgements 🙏
+
+TaskTide was inspired by the need for a modern, efficient, and user-friendly task management tool. Thanks to the developers(@k-stile) and open-source projects that made this possible.
+
+---
+
+Enjoy using TaskTide to stay organized and productive! 🏆
